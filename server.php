@@ -20,6 +20,15 @@ $app->get('/json', function ($request, $response, $args) {
   return $response;
 });
 
+
+$app->get('/time', function ($request, $response, $args) {
+
+  $data = array('name' => 'Bob', 'time' => date("H:i:s"));
+  $response->withHeader('Content-Type', 'application/json');
+  $response->write(json_encode($data));
+  return $response;
+});
+
 $app->get('/hello/{name}', function ($request, $response, $args) {
     return $response->write("Hello " . $args['name']);
 });

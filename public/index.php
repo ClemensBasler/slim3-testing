@@ -1,2 +1,4 @@
+   <?php
+   header('Access-Control-Allow-Origin: *');
 
-   <?php include ("../server.php"); ?>
+   include ("../server.php"); ?>
