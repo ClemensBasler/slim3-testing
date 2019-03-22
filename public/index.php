@@ -1,4 +1,4 @@
    <?php
    header('Access-Control-Allow-Origin: *');
 
-   include ("../server.php"); ?>
+   include (__DIR__."/../server.php"); ?>
