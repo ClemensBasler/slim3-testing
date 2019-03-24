@@ -1,6 +1,8 @@
 Dieses Projekt dient zur Demonstration der Zwischenschicht zur API.
 Unter /public/server.php
 
+Clemens balabla
+Clmens
 ### Installation von Abhängigkeiten
 run composer install
 
